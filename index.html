@@ -1,152 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head><meta charset="utf-8">
+        <meta name="description" content="Darylle Diego's Resume">
+        <meta name="keywords" content="Darylle,Resume">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Darylle">
+
+
         <title>Resume</title>
         <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
         <style>
+            body {
+                margin-top: 30px;
+                margin-left: 50px;
+            }
             header {
-                margin-bottom: 50px;
+                margin-bottom: 100px;
             }
             header h2{
-                font-size: 30pt;
-            }
-            nav ul {
-                font-size: 16pt;
-                list-style-type: disc;
-                list-style-position: inside;
+                font-size: 50pt;
             }
             ul {
                 list-style-type: disc;
                 list-style-position: inside;
-                margin-bottom: 20px;
             }
             h4 {
-                font-size: 22pt;
+                font-size: 30pt;
             }
             ul ul {
+                margin-left: 15px;
                 list-style-type: circle;
                 list-style-position: inside;
-                margin-left: 15px;
             }
             ul ul ul {
+                margin-left: 15px;
                 list-style-type: square;
                 list-style-position: inside;
-                margin-left: 15px;
+            }
+            nav {
+                font-size: 20pt;
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content:  space-around;
+                align-items: center;
+            }
+            a {
+                font-size: 20px;
+                padding-left: 50px;
+                padding-right: 50px;
             }
             section {
                 margin-bottom: 40px;
+            }
+            section ul {
+                font-size: 16pt;
+            }
+            .margin {
+                margin-bottom: 20px;
+            }
+            .container {
+                display: grid;
+                grid-template-rows: 500px 500px;
+                grid-template-columns: auto auto;
+            }
+            .row {
+                grid-column: 1/3;
+                height: 500px;
             }
         </style>
     </head>
 
     <body>
-        <header>
-            <h2>Darylle Diego</h2>
-        
 
-            <nav>
-                <ul>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#work">Work/Volunteer Experience</a></li>
-                    <li><a href="#acv">Achievements</a></li>
-                    <li><a href="#course">Courses Taken</a></li>
-                    <li><a href="#skill">Skills/Hobbies</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div class="container">
+            <header class="row">
+                <h2 class="jumbotron">Darylle Diego</h2>
+            
 
-        <main>
-            <section>
-                <h4 id="education">Education</h4>
-                <ul>
-                    <li>St. Rupert Elementary School (2008-2010)</li>
+                <nav class="jumbotron">
+                    <a href="#education">Education</a>
+                    <a href="#work">Work Experience</a>
+                    <a href="#acv">Achievements</a>
+                    <a href="#course">Courses Taken</a>
+                    <a href="#skill">Skills/Hobbies</a>
+                </nav>
+            </header>
+
+            <main>
+                <div>
+                    <h4 id="education">Education</h4>
                     <ul>
-                        <li>Grade 3-5</li>
-                    </ul>
-                    <li>Light of Christ Elementary/Junior High School (2010-2015)</li>
-                    <ul>
-                        <li>Grade 5-9</li>
-                    </ul>
-                    <li>Father Lacombe High School (2015-2018)</li>
-                    <ul>
-                        <li>Grade 10-12</li>
-                    </ul>
-                    <li>St. Anne's Academic Centre (2018-2019)</li>
-                    <ul>
-                        <li>Upgraded courses</li>
+                        <li>St. Rupert Elementary School (2008-2010)</li>
                         <ul>
-                            <li>English Language Arts 30-1</li>
-                            <li>Science 20</li>
-                            <li>Tagalog Language Exam</li>
+                            <li>Grade 3-5</li>
+                        </ul>
+                        <li>Light of Christ Elementary/Junior High School (2010-2015)</li>
+                        <ul>
+                            <li>Grade 5-9</li>
+                        </ul>
+                        <li>Father Lacombe High School (2015-2018)</li>
+                        <ul>
+                            <li>Grade 10-12</li>
+                        </ul>
+                        <li>St. Anne's Academic Centre (2018-2019)</li>
+                        <ul>
+                            <li>Upgraded courses</li>
+                            <ul>
+                                <li>English Language Arts 30-1</li>
+                                <li>Science 20</li>
+                                <li>Tagalog Language Exam</li>
+                            </ul>
+                        </ul>
+                        <li>Mount Royal University (2019-current)</li>
+                        <ul>
+                            <li>Bachelor of Computer Information Systems, Year 1</li>
                         </ul>
                     </ul>
-                    <li>Mount Royal University</li>
+                </div>
+
+                <div>
+                <h4 id="work">Work Experience</h4>
+                <ul>
+                    <li>Calgary Zoo (Summer 2017, December 2017)</li>
                     <ul>
-                        <li>Year 1</li>
+                        <li>Concessions Department</li>
+                    </ul>
+                    <li>London Drugs (February 2018 - September 2019)</li>
+                    <ul>
+                        <li>Cash/Stock Customer Service</li>
                     </ul>
                 </ul>
-            </section>
+                </div>
 
-            <section>
-            <h4 id="work">Work/Volunteer Experience</h4>
-             <ul>
-                 <li>Calgary Zoo (Summer 2017, December 2017)</li>
-                 <li>London Drugs (February 2018 - September 2019)</li>
-             </ul>
-            </section>
+                <div>
+                <h4 id="acv">Achievements</h4>
+                <ul>
+                    <li>Tae Kwon-Do Yellow Belt (2008)</li>
+                    <li>Math Honours Student Gr. 8</li>
+                    <li>Math Honours Student Gr. 9</li>
+                    <li>Math International Baccalaurete Student, 2015</li>
+                    <li>English International Baccalaurete Student, 2015</li>
+                    <li>Father Lacombe Honour Roll Gr. 12, Sem. 2</li>
+                    <li>Alberta High School Diploma, Class of 2018</li>
+                </ul>
+                </div>
 
-            <section>
-            <h4 id="acv">Achievements</h4>
-            <ul>
-                <li>Tae Kwon-Do Yellow Belt (2008)</li>
-                <li>Math Honours Student Gr. 8</li>
-                <li>Math Honours Student Gr. 9</li>
-                <li>Math International Baccalaurete Student 2015</li>
-                <li>English International Baccalaurete Studnet 2015</li>
-                <li>Father Lacombe Honour Roll Gr. 12 Sem. 2</li>
-                <li>Alberta High School Diploma, Class of 2018</li>
-            </ul>
-            </section>
+                <div>
+                <h4 id="course">Courses Taken</h4>
+                <ul class="margin"> Fall 2019
+                    <li>COMP 1501</li>
+                    <li>MKTG 2150</li>
+                    <li>GNED 1101</li>
+                    <li>GNED 1201</li>
+                    <li>GNED 1401</li>
+                </ul>
+                <ul> Winter 2020
+                    <li>COMP 1502</li>
+                    <li>COMP 2511</li>
+                    <li>MATH 1505</li>
+                    <li>MGMT 2130</li>
+                    <li>MGMT 3210</li>
+                </ul>
+                </div>
 
-            <section>
-            <h4 id="course">Courses Taken</h4>
-            <ul> Fall 2019
-                <li>COMP 1501</li>
-                <li>MKTG 2150</li>
-                <li>GNED 1101</li>
-                <li>GNED 1201</li>
-                <li>GNED 1401</li>
-            </ul>
+                <div>
+                <h4 id="skill">Skills/Hobbies</h4>
+                <ul class="margin"> Skills
+                    <li>Proficient, fast typer (Avg. 65 words/min.)</li>
+                    <li>Critical, logical thinker</li>
+                    <li>Problem solver</li>
+                    <li>Substantial Computer Knowledge</li>
+                    <li>Can lift somewhat heavy objects</li>
+                    <li>Can solve a 3x3 Rubik's cube in under 2 min.</li>
+                </ul>
+                <ul> Hobbies
+                    <li>Watching/Playing basketball</li>
+                    <li>Playing video games (PS4)</li>
+                    <li>Watching Netflix</li>
+                    <li>Gym/Working Out</li>
+                    <li>Reading</li>
+                </ul>
+                </div>
 
-            <ul> Winter 2020
-                <li>COMP 1502</li>
-                <li>COMP 2511</li>
-                <li>MATH 1505</li>
-                <li>MGMT 2130</li>
-                <li>MGMT 3210</li>
-            </ul>
-            </section>
-
-            <section>
-            <h4 id="skill">Skills/Hobbies</h4>
-            
-            <ul> Skills
-                <li>Proficient, fast typer (Avg. 65 words/min.)</li>
-                <li>Critical, logical thinker</li>
-                <li>Problem solver</li>
-                <li>Substantial Computer Knowledge</li>
-                <li>Can lift somewhat heavy objects</li>
-                <li>Can solve a 3x3 Rubik's cube in under 2 min.</li>
-            </ul>
-
-            <ul> Hobbies
-                <li>Watching/Playing basketball</li>
-                <li>Playing video games (PS4)</li>
-                <li>Watching Netflix</li>
-                <li>Gym/Working Out</li>
-            </ul>
-            </section>
-        </main>
+            </main>
+        </div>
     </body>
 </html>
