@@ -19,8 +19,10 @@
             header {
                 margin-bottom: 100px;
             }
-            header h2{
+            h2{
                 font-size: 50pt;
+                margin-left: auto;
+                margin-right: auto;
             }
             ul {
                 list-style-type: disc;
@@ -82,12 +84,14 @@
             #top, #nav {
                 background-color: white;
             }
+            p {
+                margin-bottom: unset;
+            }
+            #back {
+                margin-bottom: 50px;
+            }
 
             @media screen and (max-width: 990px) {
-                h2 {
-                    margin-left: auto;
-                    margin-right: auto;
-                }
                 nav {
                     flex-direction: column;
                     margin-left: auto;
@@ -177,14 +181,16 @@
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="course">
                 <h4>Courses Taken</h4>
-                <ul class="margin"> Fall 2019
+                <p>Fall 2019</p>
+                <ul class="margin">
                     <li>COMP 1501</li>
                     <li>MKTG 2150</li>
                     <li>GNED 1101</li>
                     <li>GNED 1201</li>
                     <li>GNED 1401</li>
                 </ul>
-                <ul> Winter 2020
+                <p>Winter 2020</p>
+                <ul>
                     <li>COMP 1502</li>
                     <li>COMP 2511</li>
                     <li>MATH 1505</li>
@@ -195,7 +201,8 @@
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="skill">
                 <h4>Skills/Hobbies</h4>
-                <ul class="margin"> Skills
+                <p>Skills</p>
+                <ul class="margin">
                     <li>Proficient, fast typer (Avg. 65 words/min.)</li>
                     <li>Critical, logical thinker</li>
                     <li>Problem solver</li>
@@ -203,7 +210,8 @@
                     <li>Can lift somewhat heavy objects</li>
                     <li>Can solve a 3x3 Rubik's cube in under 2 min.</li>
                 </ul>
-                <ul> Hobbies
+                <p>Hobbies</p>
+                <ul>
                     <li>Watching/Playing basketball</li>
                     <li>Playing video games (PS4)</li>
                     <li>Watching Netflix</li>
@@ -212,7 +220,7 @@
                 </ul>
                 </div>
 
-                <a class="col-12 col-sm-12 col-md-12 col-lg-12" href="#top">Back to Top</a>
+                <a class="col-12 col-sm-12 col-md-12 col-lg-12" href="#top" id="back">Back to Top</a>
             </main>
         </div>
     </body>
