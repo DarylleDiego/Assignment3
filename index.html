@@ -4,39 +4,91 @@
         <title>Resume</title>
         <link rel="stylesheet" href="reset.css">
 
-
+        <style>
+            header {
+                margin-bottom: 50px;
+            }
+            header h2{
+                font-size: 30pt;
+            }
+            ul {
+                list-style-type: disc;
+                list-style-position: inside;
+            }
+            h4 {
+                font-size: 22pt;
+            }
+            ul ul {
+                list-style-type: circle;
+                list-style-position: inside;
+                margin-left: 15px;
+            }
+            ul ul ul {
+                list-style-type: square;
+                list-style-position: inside;
+                margin-left: 15px;
+            }
+            section {
+                margin-bottom: 30px;
+            }
+        </style>
     </head>
 
     <body>
         <header>
             <h2>Darylle Diego</h2>
+        
+
+            <nav>
+                <ul>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#work">Work/Volunteer Experience</a></li>
+                    <li><a href="#acv">Achievements</a></li>
+                    <li><a href="#course">Courses Taken</a></li>
+                    <li><a href="#skill">Skills/Hobbies</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <nav>
-            <ul>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#work">Work/Volunteer Experience</a></li>
-                <li><a href="#acv">Achievements</a></li>
-                <li><a href="#course">Courses Taken</a></li>
-                <li><a href="#skill">Skills/Hobbies</a></li>
-            </ul>
-        </nav>
         <main>
-            <h4 id="education">Education</h4>
-            <ul>
-                <li>St. Rupert Elementary School (3-5)</li>
-                <li>Light of Christ Elementary/Junior High School (5-9)</li>
-                <li>Father Lacombe High School (10-12)</li>
-                <li>St. Anne's Academic Centre (Upgrading courses)</li>
-                <li>Mount Royal University (1st year)</li>
-             </ul>
-
+            <section>
+                <h4 id="education">Education</h4>
+                <ul>
+                    <li>St. Rupert Elementary School (2008-2010)</li>
+                    <ul>
+                        <li>Grade 3-5</li>
+                    </ul>
+                    <li>Light of Christ Elementary/Junior High School (2010-2015)</li>
+                    <ul>
+                        <li>Grade 5-9</li>
+                    </ul>
+                    <li>Father Lacombe High School (2015-2018)</li>
+                    <ul>
+                        <li>Grade 10-12</li>
+                    </ul>
+                    <li>St. Anne's Academic Centre (2018-2019)</li>
+                    <ul>
+                        <li>Upgraded courses</li>
+                        <ul>
+                            <li>English Language Arts 30-1</li>
+                            <li>Science 20</li>
+                            <li>Tagalog Language Exam</li>
+                        </ul>
+                    </ul>
+                    <li>Mount Royal University</li>
+                    <ul>
+                        <li>Year 1</li>
+                    </ul>
+                </ul>
+            </section>
+            <section>
             <h4 id="work">Work/Volunteer Experience</h4>
              <ul>
                  <li>Calgary Zoo (Summer 2017, December 2017)</li>
                  <li>London Drugs (February 2018 - September 2019)</li>
              </ul>
-
+            </section>
+            <section>
             <h4 id="acv">Achievements</h4>
             <ul>
                 <li>Tae Kwon-Do Yellow Belt (2008)</li>
@@ -47,7 +99,8 @@
                 <li>Father Lacombe Honour Roll Gr. 12 Sem. 2</li>
                 <li>Alberta High School Diploma, Class of 2018</li>
             </ul>
-
+            </section>
+            <section>
             <h4 id="course">Courses Taken</h4>
             <ul> Fall 2019
                 <li>COMP 1501</li>
@@ -64,7 +117,8 @@
                 <li>MGMT 2130</li>
                 <li>MGMT 3210</li>
             </ul>
-
+            </section>
+            <section>
             <h4 id="skill">Skills/Hobbies</h4>
             
             <ul> Skills
@@ -81,6 +135,7 @@
                 <li>Playing video games (PS4)</li>
                 <li></li>
             </ul>
+            </section>
         </main>
     </body>
 </html>
